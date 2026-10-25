@@ -4,7 +4,6 @@
 #include <stddef.h>
 #include "gf.h"
 
-// Cau truc luu dau vao va ket qua mong doi
 typedef struct {
     uint8_t a;
     uint8_t b;
@@ -14,7 +13,7 @@ typedef struct {
 int main(void)
 {
     // Cac bo kiem thu cho phep nhan trong GF(2^4)
-    // Da thuc bat kha quy: x^4 + x + 1 (0x13)
+    // Da thuc don gian: x^4 + x + 1 
     const TestVector tests[] = {
         {0x0, 0x0, 0x0},
         {0x0, 0xF, 0x0},
