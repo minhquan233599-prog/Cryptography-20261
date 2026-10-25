@@ -1,0 +1,6 @@
+# Compiled programs
+*.exe
+*.o
+
+# VS Code local settings
+.vscode/
